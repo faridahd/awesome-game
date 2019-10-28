@@ -1,0 +1,66 @@
+
+#container{
+    width: 1000px;
+    height: 500px;
+    background: orange;
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+#slot1, #slot2, #slot3{
+    width: 1100px;
+    height: 30px;
+    background: white;
+    position: absolute;
+    margin-top: 120px;
+}
+#slot1{
+    margin-top: 100px;
+}
+#slot2{
+    margin-top: 250px;
+}
+#slot3{
+    margin-top: 400px;
+}
+#box1, #box2, #box3{
+    width: 20px;
+    height: 30px;
+    position: relative;
+}
+#box1{
+    background: red;
+}
+#box2{
+    background: yellow;
+}
+#box3{
+    background: green;
+}
+#img1, #img2, #img3{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+}
+#result1, #result2, #result3 {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 1050px;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+#start, #reset {
+    font-size: 1em;
+    background: azure;
+    height: 30px;
+    color: maroon;
+    font-weight: bold;
+}
+#reset{
+    display:none;
+}
+#res{
+    color:azure;
+    background: black;
+}
