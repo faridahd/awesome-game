@@ -78,7 +78,7 @@ function startRace() {
             temp2 = go3;
         }
         clearInterval(temp2)
-        document.getElementById("img" + num).src = "images/manArrive.png";
+        document.getElementById("img" + num).src = "manArrive.png";
         document.getElementById("box" + num).style.width = "1000px";
         document.getElementById("result" + num).innerHTML = winner(temp1);
     }
